@@ -1,0 +1,25 @@
+{
+  "name": "springboot3-vue3-pro",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueup/vue-quill": "^1.2.0",
+    "axios": "^1.6.1",
+    "element-plus": "^2.4.2",
+    "persist": "^0.2.7",
+    "pinia": "^2.1.7",
+    "pinia-persistedstate-plugin": "^0.1.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "sass": "^1.69.5",
+    "vite": "^4.4.11"
+  }
+}
