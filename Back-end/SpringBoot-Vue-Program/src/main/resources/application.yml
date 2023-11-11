@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://****/springboot_vue_test
+    username: ****
+    password: ***
+    type: com.zaxxer.hikari.HikariDataSource
+  data:
+    redis:
+      port: 6379
+      password: *****
+      host: ****
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#    # /api-docs endpoint custom path 默认 /v3/api-docs
+#    springdoc.api-docs.path=/api-docs
+#
+#    # swagger 相关配置在  springdoc.swagger-ui
+#    # swagger-ui custom path
+#    springdoc.swagger-ui.path=/swagger-ui.html
+#
+#    springdoc.show-actuator=true
+springdoc:
+  show-actuator: true
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
+#logging:
+#  level:
+#    com.athuyanhong.mapper.*: debug
+debug: true
