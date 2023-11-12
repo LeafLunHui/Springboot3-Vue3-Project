@@ -8,9 +8,9 @@ import com.aliyun.oss.OSSException;
 import java.io.InputStream;
 
 public class AliOssUtil {
-    private static final String ENDPOINT = "https://oss-cn-guangzhou.aliyuncs.com";
-    private static final String ACCESS_KEY_ID = "LTAI5t6u5kUu5iSoUoB3MmWP";
-    private static final String SECRET_ACCESS_KEY = "4oRhP10oe08icKaazYuznTMliXhiXK";
+    private static final String ENDPOINT = "****";
+    private static final String ACCESS_KEY_ID = "****";
+    private static final String SECRET_ACCESS_KEY = "****";
     private static final String BUCKET_NAME = "springbootvuepro";
 
     //上传文件,返回文件的公网访问地址
